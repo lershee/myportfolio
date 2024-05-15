@@ -1,0 +1,14 @@
+:root {
+    --primary-color: ;
+    --primary-color-hover: ;
+    --secondary-color: ;
+    --secondary-color-hover: ;
+  }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b9d1ec;
+    margin: 0;
+    color: #016063;
+    line-height: 1.6;
+  }
