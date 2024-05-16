@@ -115,7 +115,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #008697;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -131,7 +131,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #008697;
     font-size: 14px;
 }
 .tab-contents{
