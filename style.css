@@ -276,6 +276,9 @@ nav ul li a:hover::after{
     display: none;
     background-color: #003550;
     overflow: hidden;
+  }
+
+  .panel ul li {
     list-style: disc inside;
   }
 
