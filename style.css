@@ -276,6 +276,7 @@ nav ul li a:hover::after{
     display: none;
     background-color: #003550;
     overflow: hidden;
+    list-style: initial;
   }
 
 /* ---------contact-------- */
