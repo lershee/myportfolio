@@ -274,7 +274,7 @@ nav ul li a:hover::after{
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #003550;
     overflow: hidden;
   }
 
