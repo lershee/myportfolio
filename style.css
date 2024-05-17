@@ -278,7 +278,7 @@ nav ul li a:hover::after{
     overflow: hidden;
   }
 
-  .panel ul li {
+  .panel ul {
     list-style: disc inside;
   }
 
