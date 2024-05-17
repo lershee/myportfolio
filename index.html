@@ -51,17 +51,54 @@
                     </li>
                 </ul>
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
                     <p class="tab-links" onclick="opentab('education')">Education</p>
                     <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
                     <p class="tab-links" onclick="opentab('languages')">Languages</p>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
-                    <div class="col1"></div>
+                <div class="tab-contents active-tab" id="experience">
+                    <button class="accordion">Section 1<i class="fa fa-plus"></i></button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                    <button class="accordion">Section 2<i class="fa fa-plus"></i></button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                    <button class="accordion">Section 3<i class="fa fa-plus"></i></button>
+                    <div class="panel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>  
+                </div>
+                <div class="tab-contents" id="skills">
+                    <div class="column1">Design Skills</div>
                     <ul>
                         <li>Microsoft Office</li>
                         <li></li>
                         <li></li>
+                    </ul>
+                    </div>
+                    <div class="column2">Technical Skills</div>
+                    <ul>
+                        <li>Microsoft Office</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    </div>
+                    <div class="column3">Soft Skills</div>
+                    <ul>
+                        <li>Excellent Communication</li>
+                        <li>Task Prioritization and Multitasker</li>
+                        <li>Helpful and takes initiative to lead when necessary</li>
+                        <li>Positive Relationship Building</li>
+                        <li>Teamwork and Collaboration</li>
+                        <li>Adaptability and Flexibility</li>
+                        <li>Reliability and Goal Oriented</li>
+                        <li>Structured Storyteller</li>
+                        <li>Exceptional Proofreader</li>
                     </ul>
                     </div>
                 </div>
@@ -86,26 +123,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-
-<!-- ---------experience---------------- -->
-
-<div id="experience">
-    <div class="container">
-        <h1 class="sub-title">Professional Experience</h1>
-        <button class="accordion">Section 1</button>
-        <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 2</button>
-        <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-        <button class="accordion">Section 3</button>
-        <div class="panel">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
     </div>
 </div>
@@ -251,5 +268,22 @@
         .catch(error => console.error('Error!', error.message))
     })
   </script>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
 </body>
 </html>
