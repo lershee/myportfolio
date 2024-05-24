@@ -249,6 +249,7 @@ nav ul li a:hover::after{
 }
 .social-icons{
     margin-top: 30px;
+    
 }
 .social-icons a{
     text-decoration: none;
@@ -258,6 +259,11 @@ nav ul li a:hover::after{
     display: inline-block;
     transition: transform 0.5s;
 }
+
+.social-icons a:link{
+    color:#ffffff
+}
+
 .social-icons a:hover{
     color: #008697;
     transform: translateY(-5px);
