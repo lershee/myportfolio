@@ -321,7 +321,9 @@ form .btn2{
 }
 
 /*------case studies --------- */
-
+ul #indent{
+    text-indent: 50px;
+}
 
 /* -----------------css for small screens--------- */
 nav .fas{
