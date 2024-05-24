@@ -261,7 +261,19 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:link{
-    color:#ffffff
+    color:#ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.social-icons a:visited{
+    color:#ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+.social-icons a:active{
+    color:#ffffff;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .social-icons a:hover{
