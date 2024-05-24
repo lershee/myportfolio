@@ -321,7 +321,8 @@ form .btn2{
 }
 
 /*------case studies --------- */
-li .indent{
+
+ul .indent{
     text-indent: 50px;
 }
 
