@@ -321,8 +321,16 @@ form .btn2{
 }
 
 /*------case studies --------- */
-ul #indent{
+li .indent{
     text-indent: 50px;
+}
+
+p .left{
+    flex-basis: 35%;
+}
+
+p .right{
+    flex-basis: 60%;
 }
 
 /* -----------------css for small screens--------- */
