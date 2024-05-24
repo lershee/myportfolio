@@ -277,7 +277,9 @@ nav ul li a:hover::after{
 }
 
 .social-icons a:hover{
-    color: #008697;
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
     transform: translateY(-5px);
 }
 .btn.btn2{
