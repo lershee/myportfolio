@@ -326,11 +326,11 @@ ul .indent{
     text-indent: 50px;
 }
 
-p .left{
+.left{
     flex-basis: 35%;
 }
 
-p .right{
+.right{
     flex-basis: 60%;
 }
 
