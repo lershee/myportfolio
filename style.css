@@ -217,16 +217,16 @@ nav ul li a:hover::after{
     object-fit: cover;
 }
 
-#casestudy .row .right{
+#casestudy .row .left{
     display: flex;
     align-items: center;
 }
 
-#casestudy .row .right .text{
+#casestudy .row .left .text{
     padding-left: 20px;
 }
 
-#casestudy .row .right .text p{
+#casestudy .row .left .text p{
     font-size: 16px;
     line-height: 26px;
     padding-bottom: 15px;
