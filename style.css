@@ -200,19 +200,36 @@ nav ul li a:hover::after{
 }
 
 #casestudy .row{
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+}
+
+#casestudy .row .right{
+    overflow: hidden;
+}
+
+#casestudy .row .right img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+#casestudy .row .right{
     display: flex;
     align-items: center;
-    flex-direction: row;
 }
 
-#casestudy img{
-    max-width: 50%;
-    max-height: 50%;
+#casestudy .row .right .text{
+    padding-left: 20px;
 }
 
-#casestudy .text{
+#casestudy .row .right .text p{
     font-size: 16px;
-    flex-basis: 50%;
+    line-height: 26px;
+    padding-bottom: 15px;
 }
 
 ul.indent{
