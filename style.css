@@ -189,23 +189,28 @@ nav ul li a:hover::after{
     background: #008697;
 }
 
+/* --------------portfolio images----------- */
+
+
 
 /* --------------case studies----------- */
 
-#case-studies{
-    padding: 30px 0;
+#casestudy .container{
+    padding-top: 20%;
 }
 
 #casestudy .row{
     display: flex;
     align-items: center;
     flex-direction: row;
+    overflow:auto;
 }
 
 #casestudy img{
     max-width: 50%;
     max-height: 50%;
-    flex-basis: 50%;
+    flex-basis: 40%;
+    float: right;
 }
 
 #casestudy .text{
@@ -214,6 +219,10 @@ nav ul li a:hover::after{
 }
 ul.indent{
     padding-left: 30px;
+}
+
+#case-studies{
+    padding: 30px 0;
 }
 
 .case-studies-list{
@@ -339,8 +348,6 @@ form .btn2{
     color: #008697;
     text-decoration: none;
 }
-
-/*------case studies --------- */
 
 
 
