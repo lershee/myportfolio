@@ -196,43 +196,30 @@ nav ul li a:hover::after{
 /* --------------case studies----------- */
 
 #casestudy .container{
-    padding: 50px 0;
+    padding: 50px 100px;
 }
 
 #casestudy .row{
-    width: 80%;
+    width: 100%;
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px 30px;
 }
 
 #casestudy .row .right{
-    overflow: hidden;
+    display: flex;
+    width: 100%;
 }
 
 #casestudy .row .right img{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 
-#casestudy .row .left{
-    display: flex;
-    align-items: center;
-}
 
-#casestudy .row .left .text{
-    padding-left: 20px;
-}
-
-#casestudy .row .left .text p{
-    font-size: 16px;
-    line-height: 26px;
-    padding-bottom: 15px;
-}
 
 ul.indent{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 #case-studies{
