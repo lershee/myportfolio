@@ -79,42 +79,6 @@ nav ul li a:hover::after{
     color: #008697;
 }
 
-.accordion {
-    color: #ffffff;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
-  
-  .active, .accordion:hover {
-    background-color: #008697;
-  }
-  
-  .accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2212";
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: #fff;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-
 /* --------------Resume----------- */
 
 #resume{
@@ -143,10 +107,6 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
-}
-
-ul .spacing{
-    margin-left: 25%;
 }
 
 .tab-titles{
@@ -189,6 +149,36 @@ ul .spacing{
 .tab-contents.active-tab{
     display: block;
 }
+
+li::marker {
+    color: #008697;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+/* --------------portfolio----------- */
 
 /* --------------case studies----------- */
 
