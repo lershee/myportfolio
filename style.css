@@ -92,6 +92,10 @@ nav ul li a:hover::after{
     flex-wrap: wrap;
 }
 
+p {
+    margin: 8px;
+}
+
 .resume-col-1{
     flex-basis: 35%;
 }
