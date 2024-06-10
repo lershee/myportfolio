@@ -166,6 +166,38 @@ li::marker {
     text-align: left;
 }
 
+/*------------accordion----------*/
+
+.accordion {
+    background-color: #002233;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #003e5e;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: #002233;
+    color:#ababab;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .panel ul li {
+    display:list-item;
+    list-style-type: disc;
+  }
+
 /* --------------portfolio----------- */
 
 /* --------------case studies----------- */
