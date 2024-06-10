@@ -154,6 +154,18 @@ li::marker {
     color: #008697;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 0px;
+    grid: auto;
+}
+
+.grid div {
+    text-align: left;
+}
+
 /* --------------portfolio----------- */
 
 /* --------------case studies----------- */
