@@ -158,6 +158,11 @@ li::marker {
     color: #008697;
 }
 
+li .tab {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
