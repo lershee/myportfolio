@@ -158,11 +158,6 @@ li::marker {
     color: #008697;
 }
 
-li .tab {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 .grid {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -273,7 +268,7 @@ li .tab {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #008697;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -281,10 +276,14 @@ li .tab {
     transition: background 0.5s;
 }
 .btn:hover{
-    background: #ff004f;
+    background: #008697;
 }
 
 /* --------------case studies----------- */
+
+#casestudies{
+    padding: 50px 0;
+}
 
 #casestudies .container{
     padding: 50px 100px;
