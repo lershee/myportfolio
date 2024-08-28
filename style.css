@@ -282,6 +282,13 @@ li::marker {
     background: #008697;
 }
 
+.portfolio{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    align-content: center;
+}
+
 /* --------------case studies----------- */
 
 #casestudies{
